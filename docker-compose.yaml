@@ -9,7 +9,7 @@ services:
       TODOS_API_ADDRESS: http://todos-api:8082
       ZIPKIN_URL: http://zipkin:9411/api/v2/spans
     ports:
-      - 8080:8080
+      - 8088:8080
     depends_on:
       - zipkin
       - auth-api
